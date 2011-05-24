@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F16A05FB138C1DCB00DACA55 /* TTMediamosaAflickaConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = F16A05FA138C1DCB00DACA55 /* TTMediamosaAflickaConfig.h */; };
+		F18784BC138985490097B22C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F18784BB138985490097B22C /* Foundation.framework */; };
+		F18784C7138985490097B22C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F18784C6138985490097B22C /* SenTestingKit.framework */; };
+		F18784CA138985490097B22C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F18784BB138985490097B22C /* Foundation.framework */; };
+		F18784CF138985490097B22C /* libextThree20MediamosaObjc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F18784B8138985490097B22C /* libextThree20MediamosaObjc.a */; };
+		F18785201389E37D0097B22C /* TTMediamosaConnect.h in Headers */ = {isa = PBXBuildFile; fileRef = F187851D1389E37D0097B22C /* TTMediamosaConnect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F18785211389E37D0097B22C /* TTMediamosaLogin.h in Headers */ = {isa = PBXBuildFile; fileRef = F187851E1389E37D0097B22C /* TTMediamosaLogin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F18785261389E5ED0097B22C /* TTExtensionLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = F18785251389E5ED0097B22C /* TTExtensionLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F18785281389E5FF0097B22C /* TTExtensionLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = F18785271389E5FF0097B22C /* TTExtensionLoader.m */; };
+		F18785291389E5FF0097B22C /* TTExtensionLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = F18785271389E5FF0097B22C /* TTExtensionLoader.m */; };
+		F187854A1389ECD70097B22C /* Library.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F18785471389ECD70097B22C /* Library.xcconfig */; };
+		F187854B1389ECD70097B22C /* Project.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F18785481389ECD70097B22C /* Project.xcconfig */; };
+		F187854C1389ECD70097B22C /* UnitTests.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F18785491389ECD70097B22C /* UnitTests.xcconfig */; };
+		F18785831389F8F80097B22C /* TTMediamosaConnect.m in Sources */ = {isa = PBXBuildFile; fileRef = F18785811389F8F80097B22C /* TTMediamosaConnect.m */; };
+		F18785841389F8F80097B22C /* TTMediamosaConnect.m in Sources */ = {isa = PBXBuildFile; fileRef = F18785811389F8F80097B22C /* TTMediamosaConnect.m */; };
+		F18785851389F8F80097B22C /* TTMediamosaLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = F18785821389F8F80097B22C /* TTMediamosaLogin.m */; };
+		F18785861389F8F80097B22C /* TTMediamosaLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = F18785821389F8F80097B22C /* TTMediamosaLogin.m */; };
+		F1878840138AA8360097B22C /* extThree20MediamosaObjc_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = F187883F138AA8360097B22C /* extThree20MediamosaObjc_Prefix.pch */; };
+		F1878842138AA8440097B22C /* extThree20MediamosaObjc.h in Headers */ = {isa = PBXBuildFile; fileRef = F1878841138AA8440097B22C /* extThree20MediamosaObjc.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F18784CD138985490097B22C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F18784AF138985490097B22C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F18784B7138985490097B22C;
+			remoteInfo = "mediamosa-objc";
+		};
+		F1878658138A0CB40097B22C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1878653138A0CB40097B22C /* Three20Core.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BEF31F3A0F352DF5000DE5D2;
+			remoteInfo = Three20Core;
+		};
+		F187865A138A0CB40097B22C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1878653138A0CB40097B22C /* Three20Core.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EB9E6C6210B6A8F800DE563C;
+			remoteInfo = Three20CoreUnitTests;
+		};
+		F1878661138A0CCB0097B22C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F187865C138A0CCB0097B22C /* Three20Network.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BEF31F3A0F352DF5000DE5D2;
+			remoteInfo = Three20Network;
+		};
+		F1878663138A0CCB0097B22C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F187865C138A0CCB0097B22C /* Three20Network.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EB9E6C6210B6A8F800DE563C;
+			remoteInfo = Three20NetworkUnitTests;
+		};
+		F187866A138A0CED0097B22C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1878665138A0CED0097B22C /* extThree20XML.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BEF31F3A0F352DF5000DE5D2;
+			remoteInfo = extThree20XML;
+		};
+		F187866C138A0CED0097B22C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1878665138A0CED0097B22C /* extThree20XML.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EB9E6C6210B6A8F800DE563C;
+			remoteInfo = extThree20XMLUnitTests;
+		};
+		F18786D9138A18740097B22C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1878653138A0CB40097B22C /* Three20Core.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BEF31F390F352DF5000DE5D2;
+			remoteInfo = Three20Core;
+		};
+		F18786DB138A18780097B22C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1878665138A0CED0097B22C /* extThree20XML.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BEF31F390F352DF5000DE5D2;
+			remoteInfo = extThree20XML;
+		};
+		F18786DD138A187C0097B22C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F187865C138A0CCB0097B22C /* Three20Network.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BEF31F390F352DF5000DE5D2;
+			remoteInfo = Three20Network;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F16A05FA138C1DCB00DACA55 /* TTMediamosaAflickaConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTMediamosaAflickaConfig.h; path = Headers/TTMediamosaAflickaConfig.h; sourceTree = "<group>"; };
+		F18784B8138985490097B22C /* libextThree20MediamosaObjc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libextThree20MediamosaObjc.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F18784BB138985490097B22C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F18784C5138985490097B22C /* extThree20MediamosaObjcTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = extThree20MediamosaObjcTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F18784C6138985490097B22C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F187851D1389E37D0097B22C /* TTMediamosaConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTMediamosaConnect.h; path = Headers/TTMediamosaConnect.h; sourceTree = "<group>"; };
+		F187851E1389E37D0097B22C /* TTMediamosaLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTMediamosaLogin.h; path = Headers/TTMediamosaLogin.h; sourceTree = "<group>"; };
+		F18785251389E5ED0097B22C /* TTExtensionLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTExtensionLoader.h; path = Headers/TTExtensionLoader.h; sourceTree = "<group>"; };
+		F18785271389E5FF0097B22C /* TTExtensionLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTExtensionLoader.m; path = Source/TTExtensionLoader.m; sourceTree = "<group>"; };
+		F18785471389ECD70097B22C /* Library.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Library.xcconfig; sourceTree = "<group>"; };
+		F18785481389ECD70097B22C /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
+		F18785491389ECD70097B22C /* UnitTests.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = UnitTests.xcconfig; sourceTree = "<group>"; };
+		F18785811389F8F80097B22C /* TTMediamosaConnect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTMediamosaConnect.m; path = Source/TTMediamosaConnect.m; sourceTree = "<group>"; };
+		F18785821389F8F80097B22C /* TTMediamosaLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTMediamosaLogin.m; path = Source/TTMediamosaLogin.m; sourceTree = "<group>"; };
+		F1878653138A0CB40097B22C /* Three20Core.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20Core.xcodeproj; path = ../Three20Core/Three20Core.xcodeproj; sourceTree = "<group>"; };
+		F187865C138A0CCB0097B22C /* Three20Network.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20Network.xcodeproj; path = ../Three20Network/Three20Network.xcodeproj; sourceTree = "<group>"; };
+		F1878665138A0CED0097B22C /* extThree20XML.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = extThree20XML.xcodeproj; path = ../extThree20XML/extThree20XML.xcodeproj; sourceTree = "<group>"; };
+		F187883F138AA8360097B22C /* extThree20MediamosaObjc_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = extThree20MediamosaObjc_Prefix.pch; path = Headers/extThree20MediamosaObjc_Prefix.pch; sourceTree = "<group>"; };
+		F1878841138AA8440097B22C /* extThree20MediamosaObjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = extThree20MediamosaObjc.h; path = Headers/extThree20MediamosaObjc.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F18784B5138985490097B22C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F18784BC138985490097B22C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18784C1138985490097B22C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F18784C7138985490097B22C /* SenTestingKit.framework in Frameworks */,
+				F18784CA138985490097B22C /* Foundation.framework in Frameworks */,
+				F18784CF138985490097B22C /* libextThree20MediamosaObjc.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F18784AD138985490097B22C = {
+			isa = PBXGroup;
+			children = (
+				F1878841138AA8440097B22C /* extThree20MediamosaObjc.h */,
+				F187883F138AA8360097B22C /* extThree20MediamosaObjc_Prefix.pch */,
+				F18785251389E5ED0097B22C /* TTExtensionLoader.h */,
+				F18785271389E5FF0097B22C /* TTExtensionLoader.m */,
+				F18785461389ECD70097B22C /* Configurations */,
+				F18784FC1389E2350097B22C /* Source */,
+				F18784FD1389E2440097B22C /* Dependencies */,
+				F18784D0138985490097B22C /* Tests */,
+				F18784BA138985490097B22C /* Frameworks */,
+				F18784B9138985490097B22C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F18784B9138985490097B22C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F18784B8138985490097B22C /* libextThree20MediamosaObjc.a */,
+				F18784C5138985490097B22C /* extThree20MediamosaObjcTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F18784BA138985490097B22C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F18784BB138985490097B22C /* Foundation.framework */,
+				F18784C6138985490097B22C /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F18784D0138985490097B22C /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Tests;
+			path = "mediamosa-objcTests";
+			sourceTree = "<group>";
+		};
+		F18784FC1389E2350097B22C /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				F187851D1389E37D0097B22C /* TTMediamosaConnect.h */,
+				F18785811389F8F80097B22C /* TTMediamosaConnect.m */,
+				F187851E1389E37D0097B22C /* TTMediamosaLogin.h */,
+				F18785821389F8F80097B22C /* TTMediamosaLogin.m */,
+				F16A05FA138C1DCB00DACA55 /* TTMediamosaAflickaConfig.h */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		F18784FD1389E2440097B22C /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				F1878653138A0CB40097B22C /* Three20Core.xcodeproj */,
+				F187865C138A0CCB0097B22C /* Three20Network.xcodeproj */,
+				F1878665138A0CED0097B22C /* extThree20XML.xcodeproj */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		F18785461389ECD70097B22C /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				F18785471389ECD70097B22C /* Library.xcconfig */,
+				F18785481389ECD70097B22C /* Project.xcconfig */,
+				F18785491389ECD70097B22C /* UnitTests.xcconfig */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		F1878654138A0CB40097B22C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1878659138A0CB40097B22C /* libThree20Core.a */,
+				F187865B138A0CB40097B22C /* CoreUnitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F187865D138A0CCB0097B22C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1878662138A0CCB0097B22C /* libThree20Network.a */,
+				F1878664138A0CCB0097B22C /* NetworkUnitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1878666138A0CED0097B22C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F187866B138A0CED0097B22C /* libextThree20XML.a */,
+				F187866D138A0CED0097B22C /* extJSONUnitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F18784B6138985490097B22C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F18785201389E37D0097B22C /* TTMediamosaConnect.h in Headers */,
+				F18785211389E37D0097B22C /* TTMediamosaLogin.h in Headers */,
+				F18785261389E5ED0097B22C /* TTExtensionLoader.h in Headers */,
+				F1878840138AA8360097B22C /* extThree20MediamosaObjc_Prefix.pch in Headers */,
+				F1878842138AA8440097B22C /* extThree20MediamosaObjc.h in Headers */,
+				F16A05FB138C1DCB00DACA55 /* TTMediamosaAflickaConfig.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F18784B7138985490097B22C /* extThree20MediamosaObjc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F18784DC138985490097B22C /* Build configuration list for PBXNativeTarget "extThree20MediamosaObjc" */;
+			buildPhases = (
+				F18784B6138985490097B22C /* Headers */,
+				F187858B1389FA050097B22C /* Protect Copied Headers */,
+				F18784B4138985490097B22C /* Sources */,
+				F18784B5138985490097B22C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F18786DE138A187C0097B22C /* PBXTargetDependency */,
+				F18786DC138A18780097B22C /* PBXTargetDependency */,
+				F18786DA138A18740097B22C /* PBXTargetDependency */,
+			);
+			name = extThree20MediamosaObjc;
+			productName = "mediamosa-objc";
+			productReference = F18784B8138985490097B22C /* libextThree20MediamosaObjc.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F18784C4138985490097B22C /* extThree20MediamosaObjcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F18784DF138985490097B22C /* Build configuration list for PBXNativeTarget "extThree20MediamosaObjcTests" */;
+			buildPhases = (
+				F18784C0138985490097B22C /* Sources */,
+				F18784C1138985490097B22C /* Frameworks */,
+				F18784C2138985490097B22C /* Resources */,
+				F18784C3138985490097B22C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F18784CE138985490097B22C /* PBXTargetDependency */,
+			);
+			name = extThree20MediamosaObjcTests;
+			productName = "mediamosa-objcTests";
+			productReference = F18784C5138985490097B22C /* extThree20MediamosaObjcTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F18784AF138985490097B22C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Home;
+			};
+			buildConfigurationList = F18784B2138985490097B22C /* Build configuration list for PBXProject "extThree20MediamosaObjc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F18784AD138985490097B22C;
+			productRefGroup = F18784B9138985490097B22C /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F1878666138A0CED0097B22C /* Products */;
+					ProjectRef = F1878665138A0CED0097B22C /* extThree20XML.xcodeproj */;
+				},
+				{
+					ProductGroup = F1878654138A0CB40097B22C /* Products */;
+					ProjectRef = F1878653138A0CB40097B22C /* Three20Core.xcodeproj */;
+				},
+				{
+					ProductGroup = F187865D138A0CCB0097B22C /* Products */;
+					ProjectRef = F187865C138A0CCB0097B22C /* Three20Network.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				F18784B7138985490097B22C /* extThree20MediamosaObjc */,
+				F18784C4138985490097B22C /* extThree20MediamosaObjcTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F1878659138A0CB40097B22C /* libThree20Core.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libThree20Core.a;
+			remoteRef = F1878658138A0CB40097B22C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F187865B138A0CB40097B22C /* CoreUnitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CoreUnitTests.octest;
+			remoteRef = F187865A138A0CB40097B22C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F1878662138A0CCB0097B22C /* libThree20Network.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libThree20Network.a;
+			remoteRef = F1878661138A0CCB0097B22C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F1878664138A0CCB0097B22C /* NetworkUnitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = NetworkUnitTests.octest;
+			remoteRef = F1878663138A0CCB0097B22C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F187866B138A0CED0097B22C /* libextThree20XML.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libextThree20XML.a;
+			remoteRef = F187866A138A0CED0097B22C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F187866D138A0CED0097B22C /* extJSONUnitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = extJSONUnitTests.octest;
+			remoteRef = F187866C138A0CED0097B22C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F18784C2138985490097B22C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F187854A1389ECD70097B22C /* Library.xcconfig in Resources */,
+				F187854B1389ECD70097B22C /* Project.xcconfig in Resources */,
+				F187854C1389ECD70097B22C /* UnitTests.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F18784C3138985490097B22C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		F187858B1389FA050097B22C /* Protect Copied Headers */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Protect Copied Headers";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = "/bin/sh ../scripts/Protect.command";
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F18784B4138985490097B22C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F18785281389E5FF0097B22C /* TTExtensionLoader.m in Sources */,
+				F18785831389F8F80097B22C /* TTMediamosaConnect.m in Sources */,
+				F18785851389F8F80097B22C /* TTMediamosaLogin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18784C0138985490097B22C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F18785291389E5FF0097B22C /* TTExtensionLoader.m in Sources */,
+				F18785841389F8F80097B22C /* TTMediamosaConnect.m in Sources */,
+				F18785861389F8F80097B22C /* TTMediamosaLogin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F18784CE138985490097B22C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F18784B7138985490097B22C /* extThree20MediamosaObjc */;
+			targetProxy = F18784CD138985490097B22C /* PBXContainerItemProxy */;
+		};
+		F18786DA138A18740097B22C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Three20Core;
+			targetProxy = F18786D9138A18740097B22C /* PBXContainerItemProxy */;
+		};
+		F18786DC138A18780097B22C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = extThree20XML;
+			targetProxy = F18786DB138A18780097B22C /* PBXContainerItemProxy */;
+		};
+		F18786DE138A187C0097B22C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Three20Network;
+			targetProxy = F18786DD138A187C0097B22C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F18784DA138985490097B22C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SDKROOT)/Developer/Library/Frameworks\"";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(STDLIB_HEADERS)",
+					"\"$(BUILT_PRODUCTS_DIR)/../three20\"",
+					"\"$(BUILT_PRODUCTS_DIR)/../../three20\"",
+					"\"$(CONFIGURATION_BUILD_DIR)/../../three20\"",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OBJROOT = "$(REPO_ROOT_PATH)/Build";
+				REPO_ROOT_PATH = "$(SRCROOT)/../..";
+				ROOT_SOURCE_PATH = "$(REPO_ROOT_PATH)/src";
+				SDKROOT = iphoneos;
+				SYMROOT = "$(OBJROOT)/Products";
+			};
+			name = Debug;
+		};
+		F18784DB138985490097B22C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SDKROOT)/Developer/Library/Frameworks\"";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(STDLIB_HEADERS)",
+					"\"$(BUILT_PRODUCTS_DIR)/../three20\"",
+					"\"$(BUILT_PRODUCTS_DIR)/../../three20\"",
+					"\"$(CONFIGURATION_BUILD_DIR)/../../three20\"",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OBJROOT = "$(REPO_ROOT_PATH)/Build";
+				REPO_ROOT_PATH = "$(SRCROOT)/../..";
+				ROOT_SOURCE_PATH = "$(REPO_ROOT_PATH)/src";
+				SDKROOT = iphoneos;
+				SYMROOT = "$(OBJROOT)/Products";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F18784DD138985490097B22C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ADDRESSBOOKUI_FX = "-framework AddressBookUI";
+				ADDRESSBOOK_FX = "-framework AddressBook";
+				AVFOUNDATION_FX = "-framework AVFoundation";
+				BASE_PRODUCT_NAME = extThree20MediamosaObjc;
+				BUILD_LIBRARY_VERSION = 1.0;
+				CFNETWORK_FX = "-framework CFNetwork";
+				COREDATA_FX = "-framework CoreData";
+				COREFOUNDATION_FX = "-framework CoreFoundation";
+				COREGRAPHICS_FX = "-framework CoreGraphics";
+				CORELOCATION_FX = "-framework CoreLocation";
+				DSTROOT = /tmp/mediamosa_objc.dst;
+				FOUNDATION_FX = "-framework Foundation";
+				GAMEKIT_FX = "-framework GameKit";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Headers/$(BASE_PRODUCT_NAME)_Prefix.pch";
+				HEADERS_FOLDER_PATH = /../three20/;
+				HEADER_SEARCH_PATHS = (
+					"$(STDLIB_HEADERS)",
+					"\"$(BUILT_PRODUCTS_DIR)/../three20\"",
+					"\"$(BUILT_PRODUCTS_DIR)/../../three20\"",
+					"\"$(CONFIGURATION_BUILD_DIR)/../../three20\"",
+				);
+				MAPKIT_FX = "-framework MapKit";
+				MEDIAPLAYER_FX = "-framework MediaPlayer";
+				MESSAGEUI_FX = "-framework MessageUI";
+				MOBILECORESERVICES_FX = "-framework MobileCoreServices";
+				OBJC_LIB = "-lobjc";
+				OBJC_LIBRARY = "-ObjC";
+				OBJROOT = "$(REPO_ROOT_PATH)/Build";
+				OPENGLES_FX = "-framework OpenGLES";
+				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = "/../three20/$(BASE_PRODUCT_NAME)/private";
+				PRODUCT_NAME = extThree20MediamosaObjc;
+				PUBLIC_HEADERS_FOLDER_PATH = "/../three20/$(BASE_PRODUCT_NAME)";
+				QUARTZCORE_FX = "-framework QuartzCore";
+				SECURITY_FX = "-framework Security";
+				SENTESTINGKIT_FX = "-framework SenTestingKit";
+				SKIP_INSTALL = YES;
+				STDLIB_HEADERS = /usr/include;
+				STDLIB_LIBRARY = /usr/lib;
+				STOREKIT_FX = "-framework StoreKit";
+				SYMROOT = "$(OBJROOT)/Products";
+				SYSTEMCONFIGURATION_FX = "-framework SystemConfiguration";
+				UIKIT_FX = "-framework UIKit";
+				ZERO_LINK = "";
+			};
+			name = Debug;
+		};
+		F18784DE138985490097B22C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ADDRESSBOOKUI_FX = "-framework AddressBookUI";
+				ADDRESSBOOK_FX = "-framework AddressBook";
+				AVFOUNDATION_FX = "-framework AVFoundation";
+				BASE_PRODUCT_NAME = extThree20MediamosaObjc;
+				BUILD_LIBRARY_VERSION = 1.0;
+				CFNETWORK_FX = "-framework CFNetwork";
+				COREDATA_FX = "-framework CoreData";
+				COREFOUNDATION_FX = "-framework CoreFoundation";
+				COREGRAPHICS_FX = "-framework CoreGraphics";
+				CORELOCATION_FX = "-framework CoreLocation";
+				DSTROOT = /tmp/mediamosa_objc.dst;
+				FOUNDATION_FX = "-framework Foundation";
+				GAMEKIT_FX = "-framework GameKit";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Headers/$(BASE_PRODUCT_NAME)_Prefix.pch";
+				HEADERS_FOLDER_PATH = /../three20/;
+				HEADER_SEARCH_PATHS = (
+					"$(STDLIB_HEADERS)",
+					"\"$(BUILT_PRODUCTS_DIR)/../three20\"",
+					"\"$(BUILT_PRODUCTS_DIR)/../../three20\"",
+					"\"$(CONFIGURATION_BUILD_DIR)/../../three20\"",
+				);
+				MAPKIT_FX = "-framework MapKit";
+				MEDIAPLAYER_FX = "-framework MediaPlayer";
+				MESSAGEUI_FX = "-framework MessageUI";
+				MOBILECORESERVICES_FX = "-framework MobileCoreServices";
+				OBJC_LIB = "-lobjc";
+				OBJC_LIBRARY = "-ObjC";
+				OBJROOT = "$(REPO_ROOT_PATH)/Build";
+				OPENGLES_FX = "-framework OpenGLES";
+				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = "/../three20/$(BASE_PRODUCT_NAME)/private";
+				PRODUCT_NAME = extThree20MediamosaObjc;
+				PUBLIC_HEADERS_FOLDER_PATH = "/../three20/$(BASE_PRODUCT_NAME)";
+				QUARTZCORE_FX = "-framework QuartzCore";
+				SECURITY_FX = "-framework Security";
+				SENTESTINGKIT_FX = "-framework SenTestingKit";
+				SKIP_INSTALL = YES;
+				STDLIB_HEADERS = /usr/include;
+				STDLIB_LIBRARY = /usr/lib;
+				STOREKIT_FX = "-framework StoreKit";
+				SYMROOT = "$(OBJROOT)/Products";
+				SYSTEMCONFIGURATION_FX = "-framework SystemConfiguration";
+				UIKIT_FX = "-framework UIKit";
+				ZERO_LINK = "-framework CoreData";
+			};
+			name = Release;
+		};
+		F18784E0138985490097B22C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mediamosa-objc/mediamosa-objc-Prefix.pch";
+				INFOPLIST_FILE = "mediamosa-objcTests/mediamosa-objcTests-Info.plist";
+				PRODUCT_NAME = extThree20MediamosaObjcTests;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F18784E1138985490097B22C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mediamosa-objc/mediamosa-objc-Prefix.pch";
+				INFOPLIST_FILE = "mediamosa-objcTests/mediamosa-objcTests-Info.plist";
+				PRODUCT_NAME = extThree20MediamosaObjcTests;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F18784B2138985490097B22C /* Build configuration list for PBXProject "extThree20MediamosaObjc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F18784DA138985490097B22C /* Debug */,
+				F18784DB138985490097B22C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F18784DC138985490097B22C /* Build configuration list for PBXNativeTarget "extThree20MediamosaObjc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F18784DD138985490097B22C /* Debug */,
+				F18784DE138985490097B22C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F18784DF138985490097B22C /* Build configuration list for PBXNativeTarget "extThree20MediamosaObjcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F18784E0138985490097B22C /* Debug */,
+				F18784E1138985490097B22C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F18784AF138985490097B22C /* Project object */;
+}
