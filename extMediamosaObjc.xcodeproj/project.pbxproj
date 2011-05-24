@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F18784BC138985490097B22C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F18784BB138985490097B22C /* Foundation.framework */; };
+		F18784C7138985490097B22C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F18784C6138985490097B22C /* SenTestingKit.framework */; };
+		F18784C9138985490097B22C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F18784C8138985490097B22C /* UIKit.framework */; };
+		F18784CA138985490097B22C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F18784BB138985490097B22C /* Foundation.framework */; };
+		F18784CC138985490097B22C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F18784CB138985490097B22C /* CoreGraphics.framework */; };
+		F18784CF138985490097B22C /* libmediamosa-objc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F18784B8138985490097B22C /* libmediamosa-objc.a */; };
+		F18784D5138985490097B22C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F18784D3138985490097B22C /* InfoPlist.strings */; };
+		F18784D7138985490097B22C /* mediamosa_objcTests.h in Resources */ = {isa = PBXBuildFile; fileRef = F18784D6138985490097B22C /* mediamosa_objcTests.h */; };
+		F18784D9138985490097B22C /* mediamosa_objcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F18784D8138985490097B22C /* mediamosa_objcTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F18784CD138985490097B22C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F18784AF138985490097B22C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F18784B7138985490097B22C;
+			remoteInfo = "mediamosa-objc";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F18784B8138985490097B22C /* libmediamosa-objc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libmediamosa-objc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F18784BB138985490097B22C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F18784BF138985490097B22C /* mediamosa-objc-Prefix.pch */ = {isa = PBXFileReference; path = "mediamosa-objc-Prefix.pch"; sourceTree = "<group>"; };
+		F18784C5138985490097B22C /* mediamosa-objcTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mediamosa-objcTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F18784C6138985490097B22C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F18784C8138985490097B22C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F18784CB138985490097B22C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		F18784D2138985490097B22C /* mediamosa-objcTests-Info.plist */ = {isa = PBXFileReference; path = "mediamosa-objcTests-Info.plist"; sourceTree = "<group>"; };
+		F18784D4138985490097B22C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F18784D6138985490097B22C /* mediamosa_objcTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mediamosa_objcTests.h; sourceTree = "<group>"; };
+		F18784D8138985490097B22C /* mediamosa_objcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mediamosa_objcTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F18784B5138985490097B22C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F18784BC138985490097B22C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18784C1138985490097B22C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F18784C7138985490097B22C /* SenTestingKit.framework in Frameworks */,
+				F18784C9138985490097B22C /* UIKit.framework in Frameworks */,
+				F18784CA138985490097B22C /* Foundation.framework in Frameworks */,
+				F18784CC138985490097B22C /* CoreGraphics.framework in Frameworks */,
+				F18784CF138985490097B22C /* libmediamosa-objc.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F18784AD138985490097B22C = {
+			isa = PBXGroup;
+			children = (
+				F18784BD138985490097B22C /* mediamosa-objc */,
+				F18784D0138985490097B22C /* mediamosa-objcTests */,
+				F18784BA138985490097B22C /* Frameworks */,
+				F18784B9138985490097B22C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F18784B9138985490097B22C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F18784B8138985490097B22C /* libmediamosa-objc.a */,
+				F18784C5138985490097B22C /* mediamosa-objcTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F18784BA138985490097B22C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F18784BB138985490097B22C /* Foundation.framework */,
+				F18784C6138985490097B22C /* SenTestingKit.framework */,
+				F18784C8138985490097B22C /* UIKit.framework */,
+				F18784CB138985490097B22C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F18784BD138985490097B22C /* mediamosa-objc */ = {
+			isa = PBXGroup;
+			children = (
+				F18784BE138985490097B22C /* Supporting Files */,
+			);
+			path = "mediamosa-objc";
+			sourceTree = "<group>";
+		};
+		F18784BE138985490097B22C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F18784BF138985490097B22C /* mediamosa-objc-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F18784D0138985490097B22C /* mediamosa-objcTests */ = {
+			isa = PBXGroup;
+			children = (
+				F18784D6138985490097B22C /* mediamosa_objcTests.h */,
+				F18784D8138985490097B22C /* mediamosa_objcTests.m */,
+				F18784D1138985490097B22C /* Supporting Files */,
+			);
+			path = "mediamosa-objcTests";
+			sourceTree = "<group>";
+		};
+		F18784D1138985490097B22C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F18784D2138985490097B22C /* mediamosa-objcTests-Info.plist */,
+				F18784D3138985490097B22C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F18784B6138985490097B22C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F18784B7138985490097B22C /* mediamosa-objc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F18784DC138985490097B22C /* Build configuration list for PBXNativeTarget "mediamosa-objc" */;
+			buildPhases = (
+				F18784B4138985490097B22C /* Sources */,
+				F18784B5138985490097B22C /* Frameworks */,
+				F18784B6138985490097B22C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mediamosa-objc";
+			productName = "mediamosa-objc";
+			productReference = F18784B8138985490097B22C /* libmediamosa-objc.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F18784C4138985490097B22C /* mediamosa-objcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F18784DF138985490097B22C /* Build configuration list for PBXNativeTarget "mediamosa-objcTests" */;
+			buildPhases = (
+				F18784C0138985490097B22C /* Sources */,
+				F18784C1138985490097B22C /* Frameworks */,
+				F18784C2138985490097B22C /* Resources */,
+				F18784C3138985490097B22C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F18784CE138985490097B22C /* PBXTargetDependency */,
+			);
+			name = "mediamosa-objcTests";
+			productName = "mediamosa-objcTests";
+			productReference = F18784C5138985490097B22C /* mediamosa-objcTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F18784AF138985490097B22C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Home;
+			};
+			buildConfigurationList = F18784B2138985490097B22C /* Build configuration list for PBXProject "mediamosa-objc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F18784AD138985490097B22C;
+			productRefGroup = F18784B9138985490097B22C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F18784B7138985490097B22C /* mediamosa-objc */,
+				F18784C4138985490097B22C /* mediamosa-objcTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F18784C2138985490097B22C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F18784D5138985490097B22C /* InfoPlist.strings in Resources */,
+				F18784D7138985490097B22C /* mediamosa_objcTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F18784C3138985490097B22C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F18784B4138985490097B22C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18784C0138985490097B22C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F18784D9138985490097B22C /* mediamosa_objcTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F18784CE138985490097B22C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F18784B7138985490097B22C /* mediamosa-objc */;
+			targetProxy = F18784CD138985490097B22C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F18784D3138985490097B22C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F18784D4138985490097B22C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F18784DA138985490097B22C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F18784DB138985490097B22C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F18784DD138985490097B22C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/mediamosa_objc.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mediamosa-objc/mediamosa-objc-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F18784DE138985490097B22C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/mediamosa_objc.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mediamosa-objc/mediamosa-objc-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F18784E0138985490097B22C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mediamosa-objc/mediamosa-objc-Prefix.pch";
+				INFOPLIST_FILE = "mediamosa-objcTests/mediamosa-objcTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F18784E1138985490097B22C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mediamosa-objc/mediamosa-objc-Prefix.pch";
+				INFOPLIST_FILE = "mediamosa-objcTests/mediamosa-objcTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F18784B2138985490097B22C /* Build configuration list for PBXProject "mediamosa-objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F18784DA138985490097B22C /* Debug */,
+				F18784DB138985490097B22C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F18784DC138985490097B22C /* Build configuration list for PBXNativeTarget "mediamosa-objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F18784DD138985490097B22C /* Debug */,
+				F18784DE138985490097B22C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F18784DF138985490097B22C /* Build configuration list for PBXNativeTarget "mediamosa-objcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F18784E0138985490097B22C /* Debug */,
+				F18784E1138985490097B22C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F18784AF138985490097B22C /* Project object */;
+}

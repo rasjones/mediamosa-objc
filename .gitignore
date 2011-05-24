@@ -1,0 +1,27 @@
+# Mac OS X Finder and whatnot
+.DS_Store
+
+# Generated files
+VersionX-revision.h
+
+
+# build products
+build/
+*.[oa]
+
+
+# Other source repository archive directories (protects when importing)
+.hg
+.svn
+CVS
+
+TTMediamosaAflickaConfig.h
+
+# automatic backup files
+*~.nib
+*.swp
+*~
+*(Autosaved).rtfd/
+Backup[ ]of[ ]*.pages/
+Backup[ ]of[ ]*.key/
+Backup[ ]of[ ]*.numbers/
