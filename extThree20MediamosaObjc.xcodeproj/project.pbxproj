@@ -12,18 +12,15 @@
 		F18784C7138985490097B22C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F18784C6138985490097B22C /* SenTestingKit.framework */; };
 		F18784CA138985490097B22C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F18784BB138985490097B22C /* Foundation.framework */; };
 		F18784CF138985490097B22C /* libextThree20MediamosaObjc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F18784B8138985490097B22C /* libextThree20MediamosaObjc.a */; };
-		F18785201389E37D0097B22C /* TTMediamosaConnect.h in Headers */ = {isa = PBXBuildFile; fileRef = F187851D1389E37D0097B22C /* TTMediamosaConnect.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F18785211389E37D0097B22C /* TTMediamosaLogin.h in Headers */ = {isa = PBXBuildFile; fileRef = F187851E1389E37D0097B22C /* TTMediamosaLogin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F18785211389E37D0097B22C /* TTMediamosaServer.h in Headers */ = {isa = PBXBuildFile; fileRef = F187851E1389E37D0097B22C /* TTMediamosaServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F18785261389E5ED0097B22C /* TTExtensionLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = F18785251389E5ED0097B22C /* TTExtensionLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F18785281389E5FF0097B22C /* TTExtensionLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = F18785271389E5FF0097B22C /* TTExtensionLoader.m */; };
 		F18785291389E5FF0097B22C /* TTExtensionLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = F18785271389E5FF0097B22C /* TTExtensionLoader.m */; };
 		F187854A1389ECD70097B22C /* Library.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F18785471389ECD70097B22C /* Library.xcconfig */; };
 		F187854B1389ECD70097B22C /* Project.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F18785481389ECD70097B22C /* Project.xcconfig */; };
 		F187854C1389ECD70097B22C /* UnitTests.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F18785491389ECD70097B22C /* UnitTests.xcconfig */; };
-		F18785831389F8F80097B22C /* TTMediamosaConnect.m in Sources */ = {isa = PBXBuildFile; fileRef = F18785811389F8F80097B22C /* TTMediamosaConnect.m */; };
-		F18785841389F8F80097B22C /* TTMediamosaConnect.m in Sources */ = {isa = PBXBuildFile; fileRef = F18785811389F8F80097B22C /* TTMediamosaConnect.m */; };
-		F18785851389F8F80097B22C /* TTMediamosaLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = F18785821389F8F80097B22C /* TTMediamosaLogin.m */; };
-		F18785861389F8F80097B22C /* TTMediamosaLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = F18785821389F8F80097B22C /* TTMediamosaLogin.m */; };
+		F18785851389F8F80097B22C /* TTMediamosaServer.m in Sources */ = {isa = PBXBuildFile; fileRef = F18785821389F8F80097B22C /* TTMediamosaServer.m */; };
+		F18785861389F8F80097B22C /* TTMediamosaServer.m in Sources */ = {isa = PBXBuildFile; fileRef = F18785821389F8F80097B22C /* TTMediamosaServer.m */; };
 		F1878840138AA8360097B22C /* extThree20MediamosaObjc_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = F187883F138AA8360097B22C /* extThree20MediamosaObjc_Prefix.pch */; };
 		F1878842138AA8440097B22C /* extThree20MediamosaObjc.h in Headers */ = {isa = PBXBuildFile; fileRef = F1878841138AA8440097B22C /* extThree20MediamosaObjc.h */; };
 /* End PBXBuildFile section */
@@ -107,15 +104,13 @@
 		F18784BB138985490097B22C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F18784C5138985490097B22C /* extThree20MediamosaObjcTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = extThree20MediamosaObjcTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F18784C6138985490097B22C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		F187851D1389E37D0097B22C /* TTMediamosaConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTMediamosaConnect.h; path = Headers/TTMediamosaConnect.h; sourceTree = "<group>"; };
-		F187851E1389E37D0097B22C /* TTMediamosaLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTMediamosaLogin.h; path = Headers/TTMediamosaLogin.h; sourceTree = "<group>"; };
+		F187851E1389E37D0097B22C /* TTMediamosaServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTMediamosaServer.h; path = Headers/TTMediamosaServer.h; sourceTree = "<group>"; };
 		F18785251389E5ED0097B22C /* TTExtensionLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTExtensionLoader.h; path = Headers/TTExtensionLoader.h; sourceTree = "<group>"; };
 		F18785271389E5FF0097B22C /* TTExtensionLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTExtensionLoader.m; path = Source/TTExtensionLoader.m; sourceTree = "<group>"; };
 		F18785471389ECD70097B22C /* Library.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Library.xcconfig; sourceTree = "<group>"; };
 		F18785481389ECD70097B22C /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
 		F18785491389ECD70097B22C /* UnitTests.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = UnitTests.xcconfig; sourceTree = "<group>"; };
-		F18785811389F8F80097B22C /* TTMediamosaConnect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTMediamosaConnect.m; path = Source/TTMediamosaConnect.m; sourceTree = "<group>"; };
-		F18785821389F8F80097B22C /* TTMediamosaLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTMediamosaLogin.m; path = Source/TTMediamosaLogin.m; sourceTree = "<group>"; };
+		F18785821389F8F80097B22C /* TTMediamosaServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTMediamosaServer.m; path = Source/TTMediamosaServer.m; sourceTree = "<group>"; };
 		F1878653138A0CB40097B22C /* Three20Core.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20Core.xcodeproj; path = ../Three20Core/Three20Core.xcodeproj; sourceTree = "<group>"; };
 		F187865C138A0CCB0097B22C /* Three20Network.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20Network.xcodeproj; path = ../Three20Network/Three20Network.xcodeproj; sourceTree = "<group>"; };
 		F1878665138A0CED0097B22C /* extThree20XML.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = extThree20XML.xcodeproj; path = ../extThree20XML/extThree20XML.xcodeproj; sourceTree = "<group>"; };
@@ -190,10 +185,8 @@
 		F18784FC1389E2350097B22C /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				F187851D1389E37D0097B22C /* TTMediamosaConnect.h */,
-				F18785811389F8F80097B22C /* TTMediamosaConnect.m */,
-				F187851E1389E37D0097B22C /* TTMediamosaLogin.h */,
-				F18785821389F8F80097B22C /* TTMediamosaLogin.m */,
+				F187851E1389E37D0097B22C /* TTMediamosaServer.h */,
+				F18785821389F8F80097B22C /* TTMediamosaServer.m */,
 				F16A05FA138C1DCB00DACA55 /* TTMediamosaAflickaConfig.h */,
 			);
 			name = Source;
@@ -253,8 +246,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F18785201389E37D0097B22C /* TTMediamosaConnect.h in Headers */,
-				F18785211389E37D0097B22C /* TTMediamosaLogin.h in Headers */,
+				F18785211389E37D0097B22C /* TTMediamosaServer.h in Headers */,
 				F18785261389E5ED0097B22C /* TTExtensionLoader.h in Headers */,
 				F1878840138AA8360097B22C /* extThree20MediamosaObjc_Prefix.pch in Headers */,
 				F1878842138AA8440097B22C /* extThree20MediamosaObjc.h in Headers */,
@@ -439,8 +431,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F18785281389E5FF0097B22C /* TTExtensionLoader.m in Sources */,
-				F18785831389F8F80097B22C /* TTMediamosaConnect.m in Sources */,
-				F18785851389F8F80097B22C /* TTMediamosaLogin.m in Sources */,
+				F18785851389F8F80097B22C /* TTMediamosaServer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,8 +440,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F18785291389E5FF0097B22C /* TTExtensionLoader.m in Sources */,
-				F18785841389F8F80097B22C /* TTMediamosaConnect.m in Sources */,
-				F18785861389F8F80097B22C /* TTMediamosaLogin.m in Sources */,
+				F18785861389F8F80097B22C /* TTMediamosaServer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

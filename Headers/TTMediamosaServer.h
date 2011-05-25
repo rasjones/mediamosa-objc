@@ -1,5 +1,5 @@
 //
-//  TTMediamosaLogin.h
+//  TTMediamosaServer
 //  mediamosa-objc
 //
 //  Created by Ugochukwu Enyioha on 5/22/11.
@@ -7,13 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "TTMediamosaConfig.h"
-#import "TTMediamosaConnect.h"
 #import "TTMediamosaAflickaConfig.h"
+#import <Three20Network/TTURLRequestDelegate.h>
 
-@interface TTMediamosaLogin : TTMediamosaConnect
+@interface TTMediamosaServer : NSObject <TTURLRequestDelegate>
 
--(void) login;
--(void) sendLoginRequest;
+- (id)init;
+-(void)login;
 
 @end
